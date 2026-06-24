@@ -1,0 +1,19 @@
+# Recommended reproducibility constraints for BE-FR YOLO.
+#
+# The original manuscript identifies PyTorch, YOLOv8, and NVIDIA GeForce RTX
+# 3060 hardware, but does not record CUDA/cuDNN patch versions. These constraints
+# avoid unsupported dependency drift while remaining installable on CPU-only or
+# CUDA-compatible PyTorch environments.
+
+torch>=2.1,<2.6
+torchvision>=0.16,<0.21
+ultralytics>=8.3,<8.5
+opencv-python>=4.8,<5
+numpy>=1.24,<2.0
+scipy>=1.10,<2
+PyYAML>=6.0,<7
+Pillow>=9.5,<13
+matplotlib>=3.7,<4
+thop>=0.1.1
+pytest>=7.4,<10
+python-docx>=1.1,<2

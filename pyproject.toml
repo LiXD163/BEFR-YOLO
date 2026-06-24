@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "befr-yolo"
+version = "0.1.0"
+description = "Reproducible BE-FR YOLO implementation on Ultralytics YOLOv8n"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "AGPL-3.0-only" }
+dependencies = [
+  "ultralytics>=8.3,<9",
+  "torch>=2.1",
+  "torchvision>=0.16",
+  "opencv-python>=4.8",
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "PyYAML>=6.0",
+  "matplotlib>=3.7",
+  "Pillow>=10.0",
+  "thop>=0.1.1",
+]
+
+[tool.setuptools.packages.find]
+include = ["befr*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
