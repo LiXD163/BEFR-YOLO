@@ -1,0 +1,4 @@
+base_config: configs/ablation_befr.yaml
+sweep:
+  be_net.alpha: [1.0, 2.0, 3.0]
+  be_net.beta: [1.0, 2.0, 3.0]

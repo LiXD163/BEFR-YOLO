@@ -1,0 +1,35 @@
+model:
+  base_detector: YOLOv8n
+  input_size: 640
+  epochs: 100
+  batch_size: 16
+  optimizer: SGD
+  initial_learning_rate: 0.01
+  momentum: 0.937
+  weight_decay: 0.0005
+  gpu: "NVIDIA GeForce RTX 3060"
+be_net:
+  blur_kernel_length_range: [9, 25]
+  blur_injection_probability_range: [0.2, 0.8]
+  alpha: 2.0
+  beta: 2.0
+  pgn_hidden_dim: 32
+  theta_range: [0, 180]
+  gaussian_noise_sigma: 0.01
+fr_net:
+  insertion_levels: [P3, P4, P5]
+  spectral_consistency_loss_weight: 0.1
+  spatial_branch: identity
+  fusion: residual_addition
+synthetic_blur_protocol:
+  clear: original_images
+  blur_light: [9, 11, 13]
+  blur_medium: [15, 17, 19]
+  blur_heavy: [21, 23, 25]
+bdd100k_realblur_subset:
+  source: "BDD100K validation set"
+  candidate_complex_images: 1000
+  motion_blur_images_after_screening: 800
+  final_retained_images: 500
+  merged_categories: [car, bus, truck, motor]
+  target_class: vehicle

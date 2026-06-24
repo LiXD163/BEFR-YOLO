@@ -1,0 +1,7 @@
+method,precision,recall,map50,map5095,delta_map50_vs_yolov8
+YOLOv8,0.552,0.421,0.446,0.236,
+Deblur-YOLO,0.574,0.447,0.472,0.25,0.026
+A-Deblurring,0.563,0.438,0.461,0.244,0.015
+FL-Deblurring,0.596,0.468,0.497,0.269,0.051
+RT-DETR-R18,0.587,0.456,0.489,0.263,0.043
+BE-FR YOLO,0.631,0.523,0.556,0.309,0.11

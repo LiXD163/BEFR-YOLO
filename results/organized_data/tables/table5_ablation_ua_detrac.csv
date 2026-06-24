@@ -1,0 +1,5 @@
+variant,clear_map50,clear_map5095,blur_light_map50,blur_light_map5095,blur_medium_map50,blur_medium_map5095,blur_heavy_map50,blur_heavy_map5095
+YOLOv8,0.821,0.642,0.807,0.618,0.782,0.548,0.714,0.468
+BE-only,0.841,0.679,0.827,0.637,0.814,0.582,0.739,0.511
+FR-only,0.885,0.684,0.862,0.651,0.832,0.603,0.764,0.536
+BE-FR YOLO,0.923,0.731,0.894,0.672,0.861,0.636,0.818,0.583

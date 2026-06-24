@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the BE-FR YOLO repository and the accompanying submitted manuscript."
+title: "BE-FR YOLO: Progressive Blur Evolution and Frequency Refinement for Robust Vehicle Detection"
+type: software
+version: "0.1.0"
+date-released: "2026-06-24"
+license: "AGPL-3.0-only"
+authors:
+  - family-names: "Li"
+    given-names: "Xiaodan"
+  - family-names: "Li"
+    given-names: "Ran"
+  - family-names: "Sun"
+    given-names: "Xiaohui"
+abstract: "Software repository accompanying the submitted manuscript on progressive blur evolution and frequency refinement for robust vehicle detection."

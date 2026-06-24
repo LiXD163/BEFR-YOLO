@@ -1,0 +1,9 @@
+blur_level,comparison,mean_delta_map50,test,p_value,significance
+Blur-Medium,BE-FR vs YOLOv8,0.079,Paired t-test,0.004,**
+Blur-Heavy,BE-FR vs YOLOv8,0.092,Paired t-test,0.002,**
+Blur-Medium,BE-FR vs BE-only,0.047,Wilcoxon,0.018,*
+Blur-Heavy,BE-FR vs BE-only,0.067,Wilcoxon,0.011,*
+Blur-Medium,BE-FR vs FR-only,0.029,Paired t-test,0.041,*
+Blur-Heavy,BE-FR vs FR-only,0.042,Paired t-test,0.026,*
+Blur-Heavy,BE-FR vs FLD [20],0.034,Wilcoxon,0.039,*
+Blur-Heavy,BE-FR vs RT-DETR-R18,0.074,Paired t-test,0.006,**

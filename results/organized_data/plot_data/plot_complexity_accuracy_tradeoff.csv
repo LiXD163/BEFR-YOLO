@@ -1,0 +1,7 @@
+method,params_m,flops_g,fps,latency_ms,blur_heavy_map50
+YOLOv8,3.2,8.7,112.4,8.9,0.714
+Deblur-YOLO,8.6,24.5,54.8,18.2,0.756
+A-Deblurring,9.3,27.8,47.6,21.0,0.731
+FL-Deblurring,5.1,13.9,82.3,12.1,0.772
+RT-DETR-R18,20.0,60.0,63.2,15.8,0.744
+BE-FR YOLO,4.4,11.6,109.7,9.1,0.818

@@ -1,0 +1,25 @@
+base_model: yolov8n.pt
+imgsz: 640
+epochs: 100
+batch: 16
+optimizer: SGD
+lr0: 0.01
+momentum: 0.937
+weight_decay: 0.0005
+be_net:
+  enabled: true
+  l_min: 9
+  l_max: 25
+  p_min: 0.2
+  p_max: 0.8
+  alpha: 2.0
+  beta: 2.0
+  pgn_hidden_dim: 32
+  theta_min: 0
+  theta_max: 180
+  gaussian_noise_sigma: 0.01
+fr_net:
+  enabled: true
+  levels: [P3, P4, P5]
+  lambda_spec: 0.1
+  spectral_distance: l1

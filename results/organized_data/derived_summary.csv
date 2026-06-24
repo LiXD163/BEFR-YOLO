@@ -1,0 +1,14 @@
+category,metric,baseline,proposed_or_comparison,value
+UA-DETRAC Blur-Heavy,mAP50 improvement,0.714,0.818,0.104
+UA-DETRAC Blur-Heavy,mAP50-95 improvement,0.468,0.583,0.115
+UAVDT Blur-Heavy,mAP50 improvement,0.171,0.286,0.115
+UAVDT Blur-Heavy,mAP50-95 improvement,0.094,0.163,0.069
+BDD100K real-blur,mAP50 improvement,0.446,0.556,0.11
+BDD100K real-blur,mAP50-95 improvement,0.236,0.309,0.073
+Ablation Blur-Heavy,BE-FR YOLO minus BE-only mAP50,0.739,0.818,0.079
+Ablation Blur-Heavy,BE-FR YOLO minus FR-only mAP50,0.764,0.818,0.054
+Ablation Blur-Heavy,BE-FR YOLO minus YOLOv8 mAP50,0.714,0.818,0.104
+Complexity,parameter change (M),3.2,4.4,1.2
+Complexity,FLOPs change (G),8.7,11.6,2.9
+Complexity,FPS change,112.4,109.7,-2.7
+Complexity,latency change (ms),8.9,9.1,0.2

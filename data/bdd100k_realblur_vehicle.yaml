@@ -1,0 +1,5 @@
+path: datasets/BDD100K_realblur
+train: images/val
+val: images/val
+names:
+  0: vehicle

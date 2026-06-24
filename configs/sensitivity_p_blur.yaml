@@ -1,0 +1,6 @@
+base_config: configs/ablation_befr.yaml
+sweep:
+  be_net.p_range:
+    - [0.1, 0.5]
+    - [0.2, 0.8]
+    - [0.4, 1.0]

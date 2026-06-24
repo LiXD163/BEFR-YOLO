@@ -1,0 +1,25 @@
+dataset,method,blur_level,metric,value
+UAVDT,YOLOv8,Clear,mAP50,0.364
+UAVDT,YOLOv8,Blur-Light,mAP50,0.316
+UAVDT,YOLOv8,Blur-Medium,mAP50,0.242
+UAVDT,YOLOv8,Blur-Heavy,mAP50,0.171
+UAVDT,Deblur-YOLO,Clear,mAP50,0.407
+UAVDT,Deblur-YOLO,Blur-Light,mAP50,0.397
+UAVDT,Deblur-YOLO,Blur-Medium,mAP50,0.255
+UAVDT,Deblur-YOLO,Blur-Heavy,mAP50,0.148
+UAVDT,A-Deblurring,Clear,mAP50,0.483
+UAVDT,A-Deblurring,Blur-Light,mAP50,0.366
+UAVDT,A-Deblurring,Blur-Medium,mAP50,0.259
+UAVDT,A-Deblurring,Blur-Heavy,mAP50,0.191
+UAVDT,FL-Deblurring,Clear,mAP50,0.508
+UAVDT,FL-Deblurring,Blur-Light,mAP50,0.497
+UAVDT,FL-Deblurring,Blur-Medium,mAP50,0.283
+UAVDT,FL-Deblurring,Blur-Heavy,mAP50,0.244
+UAVDT,RT-DETR-R18,Clear,mAP50,0.529
+UAVDT,RT-DETR-R18,Blur-Light,mAP50,0.468
+UAVDT,RT-DETR-R18,Blur-Medium,mAP50,0.301
+UAVDT,RT-DETR-R18,Blur-Heavy,mAP50,0.225
+UAVDT,BE-FR YOLO,Clear,mAP50,0.568
+UAVDT,BE-FR YOLO,Blur-Light,mAP50,0.504
+UAVDT,BE-FR YOLO,Blur-Medium,mAP50,0.363
+UAVDT,BE-FR YOLO,Blur-Heavy,mAP50,0.286

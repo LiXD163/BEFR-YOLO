@@ -1,0 +1,17 @@
+dataset,method,blur_level,metric,value
+UA-DETRAC,YOLOv8,Clear,mAP50,0.821
+UA-DETRAC,YOLOv8,Blur-Light,mAP50,0.807
+UA-DETRAC,YOLOv8,Blur-Medium,mAP50,0.782
+UA-DETRAC,YOLOv8,Blur-Heavy,mAP50,0.714
+UA-DETRAC,BE-only,Clear,mAP50,0.841
+UA-DETRAC,BE-only,Blur-Light,mAP50,0.827
+UA-DETRAC,BE-only,Blur-Medium,mAP50,0.814
+UA-DETRAC,BE-only,Blur-Heavy,mAP50,0.739
+UA-DETRAC,FR-only,Clear,mAP50,0.885
+UA-DETRAC,FR-only,Blur-Light,mAP50,0.862
+UA-DETRAC,FR-only,Blur-Medium,mAP50,0.832
+UA-DETRAC,FR-only,Blur-Heavy,mAP50,0.764
+UA-DETRAC,BE-FR YOLO,Clear,mAP50,0.923
+UA-DETRAC,BE-FR YOLO,Blur-Light,mAP50,0.894
+UA-DETRAC,BE-FR YOLO,Blur-Medium,mAP50,0.861
+UA-DETRAC,BE-FR YOLO,Blur-Heavy,mAP50,0.818

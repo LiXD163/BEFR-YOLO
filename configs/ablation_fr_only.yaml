@@ -1,0 +1,15 @@
+base_model: yolov8n.pt
+imgsz: 640
+epochs: 100
+batch: 16
+optimizer: SGD
+lr0: 0.01
+momentum: 0.937
+weight_decay: 0.0005
+be_net:
+  enabled: false
+fr_net:
+  enabled: true
+  levels: [P3, P4, P5]
+  lambda_spec: 0.1
+  spectral_distance: l1
